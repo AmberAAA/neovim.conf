@@ -55,8 +55,6 @@ return packer.startup(function(use)
 
   -- fuzzy finding w/ telescope
   use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" }) -- dependency for better sorting performance
-  use ("BurntSushi/ripgrep")
-  use ("sharkdp/fd")
   use({ "nvim-telescope/telescope.nvim", branch = "0.1.x", requires = { {'nvim-lua/plenary.nvim'} } }) -- fuzzy finder
 
 

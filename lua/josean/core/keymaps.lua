@@ -26,7 +26,7 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
 -- vim-maximizer
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
 -- vim-tree
-keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")
+keymap.set("n", "<leader>ee", "<cmd>NvimTreeToggle<CR>")
 -- telescope
 keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>") -- find files within current working directory, respects .gitignore
 -- keymap.set("n", "<leader>fg", "<cmd>Telescope git_files<cr>") -- find files within current working directory, respects .gitignore
